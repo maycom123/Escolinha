@@ -1,0 +1,134 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(45deg, rgb(242, 255, 0), rgb(135, 187, 84));
+}
+
+.navbar {
+  display: flex;
+  background-color: #333;
+  width: 100%;
+  padding: 0;
+}
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.container {
+  background-color: #1438ad;
+  padding: 20px;
+}
+
+.div1 input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  order: 1;
+  width: 100%;
+  border: 1px solid #ccc;
+  height: 30px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  order: 2;
+  padding: 12px 12px 12px 0;
+  color: white;
+}
+
+.CPF {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  order: 3;
+  width: 100%;
+}
+.RG {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  order: 4;
+}
+
+.enviar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  order: 5;
+}
+
+iframe {
+  width: 100%;
+}
+
+iframe {
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+  overflow: clip !important;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: flex;
+    background-color: #050404;
+    width: 100%;
+    padding: 0;
+  }
+
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .container {
+    background-color: #460a0a;
+  }
+  .div1 input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    height: 20px;
+  }
+  label {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: rgba(107, 92, 92, 0.795);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    order: 1;
+    width: 100%;
+  }
+}

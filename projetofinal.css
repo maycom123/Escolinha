@@ -1,0 +1,258 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+body {
+  background-color: #FABB1C;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color:#002561;
+  font-size: 1.2em;
+  width: 100%;
+
+  padding: 0;
+}
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar a:hover {color: brown;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+.div-h1 {
+  width: 100%;
+  height: 350px;
+  background-image: url("pedro4.png");
+  background-repeat: no-repeat;
+}
+
+.div-h1 h1 {
+  text-align: center;
+  font-size: 5em;
+  color: white;
+  text-shadow: 15px 7px 12px black;
+}
+
+.sobre {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.subtitulo {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.subtitulo h1 {
+  font-size: 2em;
+  text-align: center;
+}
+.ct-foto {
+  width: 450px;
+  height: 320px;
+  margin: 10px;
+}
+
+.ct2-foto {
+  width: 400px;
+  height: 250px;
+  margin: 10px;
+}
+.ct-texto {
+  width: 500px;
+  height: 400px;
+  margin: 10px;
+  text-align: start;
+}
+
+.ct1-texto {
+  width: 500px;
+  height: 400px;
+  margin: 10px;
+}
+.ct-texto p {
+  padding: 10px;
+  font-size: 1.2em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.ct1-texto p {
+  padding: 10px;
+  font-size: 1.2em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.ct-texto h1 {
+  font-size: 2em;
+  color: white;
+  text-shadow: 1px 3px 5px black;
+}
+.ct1-texto h1 {
+  font-size: 2em;
+  color: white;
+  text-shadow: 1px 3px 5px black;
+}
+
+img {
+  width: 100%;
+}
+footer {
+  background-color: #002561;
+  color: azure;
+  padding: 20px;
+}
+.rede {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: auto;
+}
+footer p {
+  text-align: center;
+  font-size: 1.3em;
+}
+footer img {
+  width: 30%;
+}
+
+@media (min-width: 220px) and (max-width: 370px) {
+  .div-h1 {
+    background-image: url(img/escola370.png);
+  }
+  .navbar {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+ .subtitulo {font-size: 1.2;
+display: flex;
+justify-content: center;}
+  .ct-texto p {
+    padding: 10px 5px;
+    font-size: 1em;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri,"Trebuchet MS", sans-serif; 
+     
+  }
+  .ct1-texto p {
+    width: 100%;
+    font-size: 1em;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri,"Trebuchet MS", sans-serif; 
+    
+  }
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+  .div-h1 {
+    background-image: url(img/pedro2.jpg);
+  }
+  .navbar{font-size: 0.8em;}
+  .ct-texto h1 {
+
+    font-size: 1.7em;
+    color: white;
+    text-shadow: 1px 3px 5px black;
+  }
+  .subtitulo{font-size: 1.1em;}
+   .ct1-texto h1 {
+    
+    font-size: 1.7em;
+    color: white;
+    text-shadow: 1px 3px 5px black;
+  }
+  .ct-texto p {
+    padding: 10px 5px;
+    font-size: 1em;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri,"Trebuchet MS", sans-serif; 
+      
+  }
+  .ct1-texto p {
+    width: 100%;
+    font-size: 1em;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri,"Trebuchet MS", sans-serif; 
+     
+  }
+}
+
+@media (min-width: 481px) and (max-width: 700px) {
+  .div-h1 {
+    background-image: url(img/escola640px.jpg);
+  }
+  .subtitulo{font-size: 1.5em;}
+   .ct1-texto h1 {
+    text-align: center;
+    font-size: 1.9em;
+    color: white;
+    text-shadow: 1px 3px 5px black;
+  }
+   .ct1-texto h1 {
+    text-align: center;
+    font-size: 1.9em;
+    color: white;
+    text-shadow: 1px 3px 5px black;
+  }
+  .ct-texto p {
+    padding: 10px 5px;
+    font-size: 1.5em;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri,"Trebuchet MS", sans-serif; 
+      
+  }
+  .ct1-texto p {
+    width: 100%;
+    font-size: 1.5em;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri,"Trebuchet MS", sans-serif; 
+     
+  }
+  
+}
+@media (min-width: 701px) and (max-width: 1000px) {
+  .subtitulo{font-size: 1.5em;}
+  .ct-texto h1 {
+    font-size: 3em;
+  }
+  .ct-texto p {
+    font-size: 1.5em;
+  }
+
+  .ct1-texto h1 {
+    font-size: 3em;
+  }
+  .ct1-texto p {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .div-h1 {
+    background-image: url(img/escola16.png);
+  }
+}
+
+
+@media (min-width: 1601px) and (max-width: 1923px) {
+  .div-h1 {
+    background-image: url(img/escola19.png);
+  }
+}
+
